@@ -26,4 +26,16 @@ test("arrays practice", async () => {
 
   const result4 = users.map(user => ({ name: user.name }))
   console.log(result4);
+
+
+  //Задание 5
+
+  const result5 = users.filter(user => user.age > 20).map(user => user.name.toUpperCase())
+  console.log(result5)
 });
+
+
+
+
+
+
