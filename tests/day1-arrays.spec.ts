@@ -34,6 +34,17 @@ test("arrays practice", async () => {
   console.log(result5)
 });
 
+//Задание 6
+
+const user = {
+  id: 1,
+  name: 'Elena',
+  age: 30
+}
+
+const { id, name} = user
+console.log(id)
+console.log(name)
 
 
 
